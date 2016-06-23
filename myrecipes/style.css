@@ -1,0 +1,172 @@
+html {
+    background-color:white;
+}
+body {
+    background-color:#ede6e6;
+    margin: 0 auto;
+    width: 960px;
+    font-family: arial, helvetica, sans-serif;
+}
+
+a {
+    text-decoration:none;
+    color:black;
+}
+
+/* Header Section */
+header  {
+    height:150px;
+    padding-top: 20px;
+}
+
+ul  {
+    padding: 0;
+}
+
+li  {
+    display:inline;
+    padding: 10px;
+    font-size: 16px;
+}
+
+header li:first-child{
+    border-right: 1px dotted #373535;
+}
+
+.left   {
+    width:320px;
+    float:left;
+}
+
+.left ul{
+    padding-left: 30px;
+    padding-top: 90px;
+}
+.right   {
+    width:320px;
+    float:right;
+}
+
+.right ul{
+    float:right;
+    padding-right: 30px;
+    padding-top: 90px;
+}
+
+#logo   {
+    width: 320px;
+    float:left;
+    text-align: center;
+    color: red;
+    font-size: 36px;
+}
+
+#logo  p {
+    margin:0;
+}
+
+/* Content*/
+
+.cf:before,
+.cf:after {
+    content:" ";
+    display:table; 
+}
+
+.cf:after {
+        clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+#main {
+    background-image: url('Images/dishes.jpg');
+    height:438px;   
+}
+
+#main p{
+    margin:0;
+    padding-top: 20px;
+    color: #b46363;
+    font-family: ariel, sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+form {
+    text-align: center;
+    padding-top: 30px;
+}
+
+#email {
+    width:220px;
+    height:25px;
+    border-radius: 5px;
+    padding:0;
+    margin-right: 10px;
+}
+#click {
+    border-radius: 5px;
+    height:25px;
+}
+
+.box    {
+    position:relative;
+    float:left;
+    margin: 15px 0;
+}
+
+.box img{
+    position:relative;
+    z-index: 1;
+    margin-left: 15px;
+}
+
+.box p{
+    z-index: 2;
+    position:absolute;
+    width: 100%;
+    top:12px;
+    text-align: center;
+    font-size: 24px;
+    margin-left: 15px;
+    color:black;
+}
+
+.middle p{
+    color:white;
+}
+
+/*Footer*/
+
+nav {
+    text-align: center;
+    font-size:16px;
+    
+}
+
+footer  {
+    background-color: #e5e0e0;
+    height: 140px;
+    padding-top: 20px;
+}
+
+footer li{
+    border-right: 1px solid #373535;
+    
+}
+
+footer li:last-child{
+    border-right: none;
+}
+
+footer img{
+    display: block;
+    margin: 0 auto;
+}
